@@ -77,7 +77,7 @@ const PlotEquation = () => {
         myChart.destroy();
       };
     }
-  }, [m, f, p_m, w_m, p_f, w_f, prob_seat_down, effort_female, effort_male]);
+  }, [m, f, p_m, w_m, p_f, w_f, prob_seat_down, effort_female, effort_male, effort_total]);
 
 
   return (
